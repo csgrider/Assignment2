@@ -8,6 +8,6 @@ public class LeapYearCalculatorTest2001 {
     public void test2001IsLeapYear(){
         LeapYearCalculator leapYear = new LeapYearCalculator();
         boolean result = leapYear.isLeapYear(2001);
-        Assert.assertTrue(result);
+        Assert.assertFalse(result);
     }
 }
